@@ -1,0 +1,109 @@
+.container{
+    color: black;
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.containerOne{
+    font-family: Georgia, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+.bgOne{
+    background-image: url(./Assets/Images/movieBg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgTwo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.712);
+    background-image: url(./Assets/Images/floral-minimalistic.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.bgThree{
+    background-image: linear-gradient(rgba(255, 255, 37, 0.712), rgba(255, 176, 28, 0.658));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgFull{
+    background-image: url(./Assets/Images/bg-minimalist-doodle-1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgBdayFull{
+    background-image: url(./Assets/Images/bday3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,html{
+    height: 100vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+body{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+h2{
+    color: rgb(163, 1, 155);
+}
+
+p{
+    font-size: 1rem;
+    }
+
+.whiteFont{
+    color: beige;
+}
+
+.crimsonFont{
+    color: rgb(255, 242, 66);
+}
+
+.zeroMargin{
+    margin: 0;
+}
+
+.centred{
+    text-align: center;
+    list-style-position:inside;
+}
+
+.roundImage{
+    border-radius: 30px 90px 30px 90px;
+}
