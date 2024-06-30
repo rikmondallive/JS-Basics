@@ -64,9 +64,9 @@ body,html{
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+    position: relative;
+    bottom: 0vw;
+    text-align: center;
 }
 
 body{
@@ -80,7 +80,7 @@ h1{
 }
 
 h2{
-    color: rgb(163, 1, 155);
+    color: rgb(150, 0, 142);
 }
 
 p{
